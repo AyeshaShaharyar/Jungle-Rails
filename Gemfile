@@ -45,7 +45,11 @@ group :development, :test do
   gem 'byebug'
   gem 'quiet_assets'
   gem 'dotenv-rails'
+  gem 'rspec-rails', '~> 3.5'
 end
+
+  
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
